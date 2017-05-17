@@ -16,6 +16,12 @@
 		7B6954C51ECB46610021350A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B6954C31ECB46610021350A /* LaunchScreen.storyboard */; };
 		7B6954D01ECB46610021350A /* LoopshowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6954CF1ECB46610021350A /* LoopshowTests.m */; };
 		7B6954DB1ECB46610021350A /* LoopshowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6954DA1ECB46610021350A /* LoopshowUITests.m */; };
+		7B6954EC1ECB519B0021350A /* 01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B6954E91ECB519B0021350A /* 01.jpg */; };
+		7B6954ED1ECB519B0021350A /* 02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B6954EA1ECB519B0021350A /* 02.jpg */; };
+		7B6954EE1ECB519B0021350A /* 03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B6954EB1ECB519B0021350A /* 03.jpg */; };
+		7B6954F21ECB54C90021350A /* WGLoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6954F11ECB54C90021350A /* WGLoopView.m */; };
+		7B6954F51ECB5CF40021350A /* WGLoopViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6954F41ECB5CF40021350A /* WGLoopViewLayout.m */; };
+		7B6954F81ECB5FED0021350A /* WGLooopViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6954F71ECB5FED0021350A /* WGLooopViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,15 @@
 		7B6954D61ECB46610021350A /* LoopshowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoopshowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B6954DA1ECB46610021350A /* LoopshowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoopshowUITests.m; sourceTree = "<group>"; };
 		7B6954DC1ECB46610021350A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B6954E91ECB519B0021350A /* 01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01.jpg; sourceTree = "<group>"; };
+		7B6954EA1ECB519B0021350A /* 02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 02.jpg; sourceTree = "<group>"; };
+		7B6954EB1ECB519B0021350A /* 03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 03.jpg; sourceTree = "<group>"; };
+		7B6954F01ECB54C90021350A /* WGLoopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGLoopView.h; sourceTree = "<group>"; };
+		7B6954F11ECB54C90021350A /* WGLoopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGLoopView.m; sourceTree = "<group>"; };
+		7B6954F31ECB5CF40021350A /* WGLoopViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGLoopViewLayout.h; sourceTree = "<group>"; };
+		7B6954F41ECB5CF40021350A /* WGLoopViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGLoopViewLayout.m; sourceTree = "<group>"; };
+		7B6954F61ECB5FED0021350A /* WGLooopViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGLooopViewCell.h; sourceTree = "<group>"; };
+		7B6954F71ECB5FED0021350A /* WGLooopViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGLooopViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +123,9 @@
 				7B6954B81ECB46610021350A /* ViewController.h */,
 				7B6954B91ECB46610021350A /* ViewController.m */,
 				7B6954BB1ECB46610021350A /* Main.storyboard */,
+				7B6954EF1ECB54710021350A /* LoopView */,
 				7B6954C11ECB46610021350A /* Assets.xcassets */,
+				7B6954E81ECB519B0021350A /* images */,
 				7B6954C31ECB46610021350A /* LaunchScreen.storyboard */,
 				7B6954C61ECB46610021350A /* Info.plist */,
 				7B6954BE1ECB46610021350A /* Loopshow.xcdatamodeld */,
@@ -141,6 +158,29 @@
 				7B6954DC1ECB46610021350A /* Info.plist */,
 			);
 			path = LoopshowUITests;
+			sourceTree = "<group>";
+		};
+		7B6954E81ECB519B0021350A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				7B6954E91ECB519B0021350A /* 01.jpg */,
+				7B6954EA1ECB519B0021350A /* 02.jpg */,
+				7B6954EB1ECB519B0021350A /* 03.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		7B6954EF1ECB54710021350A /* LoopView */ = {
+			isa = PBXGroup;
+			children = (
+				7B6954F01ECB54C90021350A /* WGLoopView.h */,
+				7B6954F11ECB54C90021350A /* WGLoopView.m */,
+				7B6954F31ECB5CF40021350A /* WGLoopViewLayout.h */,
+				7B6954F41ECB5CF40021350A /* WGLoopViewLayout.m */,
+				7B6954F61ECB5FED0021350A /* WGLooopViewCell.h */,
+				7B6954F71ECB5FED0021350A /* WGLooopViewCell.m */,
+			);
+			path = LoopView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,11 +245,13 @@
 		7B6954A71ECB46610021350A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WG;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Zhihui;
 				TargetAttributes = {
 					7B6954AE1ECB46610021350A = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = P8LL7QKHES;
 						ProvisioningStyle = Automatic;
 					};
 					7B6954CA1ECB46610021350A = {
@@ -249,8 +291,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B6954EE1ECB519B0021350A /* 03.jpg in Resources */,
+				7B6954ED1ECB519B0021350A /* 02.jpg in Resources */,
 				7B6954C51ECB46610021350A /* LaunchScreen.storyboard in Resources */,
 				7B6954C21ECB46610021350A /* Assets.xcassets in Resources */,
+				7B6954EC1ECB519B0021350A /* 01.jpg in Resources */,
 				7B6954BD1ECB46610021350A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,9 +321,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B6954F51ECB5CF40021350A /* WGLoopViewLayout.m in Sources */,
 				7B6954C01ECB46610021350A /* Loopshow.xcdatamodeld in Sources */,
+				7B6954F81ECB5FED0021350A /* WGLooopViewCell.m in Sources */,
 				7B6954BA1ECB46610021350A /* ViewController.m in Sources */,
 				7B6954B71ECB46610021350A /* AppDelegate.m in Sources */,
+				7B6954F21ECB54C90021350A /* WGLoopView.m in Sources */,
 				7B6954B41ECB46610021350A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +476,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P8LL7QKHES;
 				INFOPLIST_FILE = Loopshow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Zhihui.GBOX.Loopshow;
@@ -439,6 +488,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P8LL7QKHES;
 				INFOPLIST_FILE = Loopshow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Zhihui.GBOX.Loopshow;
@@ -511,6 +561,7 @@
 				7B6954E11ECB46610021350A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B6954E21ECB46610021350A /* Build configuration list for PBXNativeTarget "LoopshowTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +570,7 @@
 				7B6954E41ECB46610021350A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B6954E51ECB46610021350A /* Build configuration list for PBXNativeTarget "LoopshowUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +579,7 @@
 				7B6954E71ECB46610021350A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
